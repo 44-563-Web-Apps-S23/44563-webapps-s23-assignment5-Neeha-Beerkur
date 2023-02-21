@@ -12,6 +12,24 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <h1>"Plants by Neeha Beerkur"</h1>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="plants.html">Interesting plants</a>
+        <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expand="false">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-link">
+            <a class="nav-link active" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-link active" href="advanced.html">Advanced</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="class col-sm-2">B</div>
@@ -30,10 +48,10 @@
             <div class="class col-md">Ulex</div>
         </div>
     </div>
-    </head>
-    <body>
+    
+    
         <p>When we reduce the size slowly plant name row breaks first since the length of plant name is greater than the letter in the name.</p>
-    </body>
+    
     <div>
       <img src="Baptisia.jpg" class="img-fluid" height="350" width="350" alt="Plants">
       <img src="Ephedra.jpg" class="img-fluid" height="350" width="350" alt="Plants">
@@ -125,4 +143,22 @@
       <a class="dropdown-item" href="advanced.html">Bootstrap advanced</a>
     </div>
     </div>
+
+    <form>
+      <div class=""form-group">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We will never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Plant</label>
+        <input type="text" class="form-control" placeholder="Enter your plant">
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">Sign up for newsletter?</label>
+        <input type="checkbox" class="form-check-input">
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+    </body>
 </html>
